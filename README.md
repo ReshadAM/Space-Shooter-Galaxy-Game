@@ -1,4 +1,10 @@
-# How to run the game on a pi
+# Space Shooter Galaxy Game
+
+**Space Shooter Galaxy** is an arcade-style space shooter game where the player controls a spaceship to shoot down incoming waves of enemies and asteroids. The game features a health bar, score counter, and various enemies with different mechanics. The objective is to survive as long as possible, destroying enemies while avoiding damage.
+
+![Game Screenshot](assets/game-snapshot.png) <!-- Update this path based on where you store the image in your repo -->
+
+# How to run the game on a Pi
 
 * Install the following dependencies:
    - SDL dev `sudo apt-get install libsdl2-dev`
@@ -8,9 +14,7 @@
 * After installing dependencies, run `make` from the root folder.
 * To start the game, run `./game`.
 
-# Notes for TA about acceptance tests
-
-Some of the acceptance tests are not fully valid since some parts of the game are still in development (parts that are not included in the selected stories for this stage). I have emailed the professor, and he said to make note of it in the README to avoid losing marks on those acceptance tests:
+# Game Features and Status
 
 ### Game UI - Start screen Acceptance tests
 
@@ -28,7 +32,7 @@ Some of the acceptance tests are not fully valid since some parts of the game ar
 
 * When an enemy takes damage, it is not visible to the user until the damage is enough to kill the enemy.
 
-### Closed stories
+### Closed Stories
 
 - Game UI - Start Screen
 - Game Mechanic - Player/sprite that can move and shoot
